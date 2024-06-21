@@ -23,6 +23,10 @@ PRODUCT_PACKAGES += \
     checkpoint_gc \
     otapreopt_script
 
+# Add libdumpstateutil.so to PRODUCT_PACKAGES
+PRODUCT_PACKAGES += \
+    libdumpstateutil.vendor
+
 # ANT+
 PRODUCT_PACKAGES += \
     AntHalService-Soong \
